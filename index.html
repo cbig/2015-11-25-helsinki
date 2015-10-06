@@ -80,13 +80,13 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
 -->
 {% if page.latlng %}
 <p>
-  <strong>Where:</strong> Seminar room Aura at the Finnish Meteorological
+  <strong>Where:</strong> Days 1 and 2 in seminar room Aura at the Finnish Meteorological
   Institute (FMI),
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="https://www.google.fi/maps/place/Erik+Palm%C3%A9nin+aukio+1,+00101+Helsinki/@60.203843,24.9617237,17z/data=!3m1!4b1!4m2!3m1!1s0x4692099f275fc78d:0xb193a7b2bc440cb1?hl=en">
+    Erik Palménin aukio 1</a>. Day 3 in room K232 at the Minerva Plaza Learning
+    Environment,
+    <a href="https://www.google.fi/maps/place/Siltavuorenpenger+9,+00170+Helsinki/@60.1753402,24.952071,17z/data=!3m1!4b1!4m2!3m1!1s0x46920bd3d7c55897:0xdf2500e686168e57?hl=en">
+      Siltavuorenpenger 9</a>.
 </p>
 {% endif %}
 
@@ -103,11 +103,26 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
 </p>
 
+<p>
+  No previous programming skills or experience is required, although they will
+  be useful. The lesson contents and exercises are aimed at novices.
+</p>
+
+<!--
+  REGISTRATION
+-->
+<p>
+  <strong>Registration:</strong> Please sign up using the
+  <a href="https://elomake.helsinki.fi/lomakkeet/64171/lomake.html">registration
+    form</a> (maximum number of sudents: 35).
+</p>
+
+
 <!--
   CONTACT EMAIL ADDRESS
 
   Display the contact email address set in the header.  If an address
-  isn't set in the header, the Software Carpentry admin address is
+  isnt set in the header, the Software Carpentry admin address is
   used.
 -->
 <p>
@@ -137,26 +152,65 @@ eventbrite: # optional (delete this if not used, otherwise uncomment and provide
 -->
 <h2>Schedule</h2>
 
+<p>
+  The workshop constitutes of three days. Days 1 and 2 form the core part of
+  the training. Day 3 is different in that there is no pre-planned schedule or
+  syllabus for the day. Rather, we encourage you to apply what you have learned
+  to your actual research workflows. In practice you could for example:
+
+  <ul>
+    <li>Automate geospatial data converstion using a simple bash script</li>
+    <li>Put your latest analysis code into a git repository</li>
+    <li>Upload your code to GitHub</li>
+    <li>Make your code (e.g. Python or R) more readable by modularizing and
+    commenting it</li>
+  </ul>
+</p>
+
+<p>
+  If you have a particular task in mind that you would like to work on during
+  day 3 (related to the content of the workshop), let us know in advance so we
+  can give it some thought as well.
+</p>
+
+<p>
+  Attending day 3 is completely optional. <strong>Note</strong> that the venue
+  for days 1+2 and 3 is different.
+</p>
+
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Day 1 <small>Erik Palménin aukio 1</small></h3>
     <table class="table table-striped">
       <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break (at own expense)</td> </tr>
       <tr> <td>13:00</td>  <td>Version control with Git</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Day 2 <small>Erik Palménin aukio 1</small></h3>
     <table class="table table-striped">
       <tr> <td>09:00</td>  <td>Building programs with Python</td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break (at own expense)</td> </tr>
       <tr> <td>13:00</td>  <td>Best practices in coding</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+    </table>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <h3>Day 3 (optional) <small>Siltavuorenpenger 9</small></h3>
+    <table class="table table-striped">
+      <tr> <td>09:00</td>  <td>Working on your own workflows</td> </tr>
+      <tr> <td>10:30</td>  <td>Break</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break (at own expense)</td> </tr>
+      <tr> <td>13:00</td>  <td>Working on your own workflows</td> </tr>
+      <tr> <td>14:30</td>  <td>Break</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
