@@ -8,18 +8,26 @@ This directory contains scripts for testing your machine to make sure
 you have the software you'll need for your workshop installed.  To use
 these scripts:
 
-1.  Download [swc-installation-test-1.py](swc-installation-test-1.py).
+1.  Download [swc-installation-test-1.py](swc-installation-test-1.py) to a
+directory of your choosing.
 
-2.  Run it from the shell:
+2.  Open your terminal. If you haven't used Python before, the simplest way
+of accessing Python is (assuming you followed the installation instructions):  
+**Windows**: "Start Menu" -> "Anaconda3 (64-bit)" -> "Anaconda Prompt"  
+**Mac OS X and Linux**: Open up your Terminal, Python should be ready for use.
 
+3. Navigate to the directory to which you downloaded script
+`swc-installation-test-1.py`. Run it from the shell:  
+
+4. 
     ~~~
     $ python swc-installation-test-1.py
     Passed
     ~~~
 
-3.  Download [swc-installation-test-2.py](swc-installation-test-2.py).
+4.  Download [swc-installation-test-2.py](swc-installation-test-2.py).
 
-4.  Run it from the shell:
+5.  Run it from the shell:
 
     ~~~
     $ python swc-installation-test-2.py
